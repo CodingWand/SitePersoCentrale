@@ -1,0 +1,47 @@
+body
+{
+  color: white;
+  --bs-body-bg: black;
+  --bs-body-color: white;
+}
+
+a
+{
+  color: #3aba5a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6fd189;
+}
+
+nav span a {
+  color: white;
+  text-decoration: none;
+}
+
+nav span a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.entete h1
+{
+  color : #3aba5a;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.corps
+{
+  margin: auto;
+  width: 70%;
+  padding-bottom: 50px;
+}
+
+footer
+{
+  text-align: center;
+  color: #6fd189;
+}

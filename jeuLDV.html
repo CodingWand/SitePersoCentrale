@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+
+      <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+      <script src="js/jeu/GameObject.js"></script>
+      <script src="js/jeu/sketch.js"></script>
+
+      <link href="css/styleJeu.css" rel="stylesheet"/>
+      <title>Savannah Investigation</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <span class="navbar-brand">
+        <img src="assets/logo_liste.png" width="60" height="60"/>
+        <a href="#">List'oire De la Vie</a>
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#TheSiteNav" aria-controls="TheSiteNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="TheSiteNav">
+        <ul class="navbar-nav mb-2 mb-lg-2">
+        </ul>
+      </div>
+    </nav>
+
+    <div class="entete">
+      <h1>Savannah Investigation</h1>
+    </div>
+
+    <div class="corps">
+        <h2>Salut l'aventurier !</h2>
+        <p>Aujourd'hui on se retrouve en ligne pour tenter de résoudre une mystérieuse affaire dans la savane.</p>
+        <p>On a besoin de toi pour tirer ça au clair !</p>
+        <p>Pour commencer, on te laisse 2 minutes pour trouver un maximums d'indices. Pour celà tu devras trouver et cliquer sur
+          des objets spéciaux (il y en a 8). Mais attention, tu n'as que 2 minutes.
+        </p>
+        <br />
+
+        <div id="holder">
+            <div id="sketch-holder">
+            </div>
+        </div>
+    </div>
+
+    <footer>&List'oire De la Vie</footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

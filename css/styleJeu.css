@@ -1,0 +1,60 @@
+body
+{
+    color : #784421;
+    font-family: "Merienda";
+    --bs-body-bg: #FFEEAA;
+    --bs-body-color: #ff502a;
+}
+
+h1, h2, h3
+{
+    font-family: "New Rocker";
+}
+
+a
+{
+  color: #ff502a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fe0024;
+}
+
+nav span a {
+  color: #ff502a;
+  text-decoration: none;
+}
+
+nav span a:hover {
+  color: #fe0024;
+  text-decoration: none;
+}
+
+.entete h1
+{
+  color : #ff502a;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.corps
+{
+    margin: auto;
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+#holder
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer
+{
+  text-align: center;
+  color: #ff9d89;
+}
