@@ -1,18 +1,18 @@
 body
 {
   color: white;
-  --bs-body-bg: darkgrey;
+  --bs-body-bg: black;
   --bs-body-color: white;
 }
 
 a
 {
-  color: #3aba5a;
+  color: #4f1196;
   text-decoration: none;
 }
 
 a:hover {
-  color: #6fd189;
+  color: #6a16c9;
 }
 
 nav span a {
@@ -27,7 +27,7 @@ nav span a:hover {
 
 .entete h1
 {
-  color : #3aba5a;
+  color : #4f1196;
   font-size: 100px;
   text-align: center;
   margin-bottom: 50px;
@@ -40,8 +40,19 @@ nav span a:hover {
   padding-bottom: 50px;
 }
 
+.my-vertical-navbar
+{
+  height: 100%;
+  width: 17rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: #4f1196;
+}
+
 footer
 {
   text-align: center;
-  color: #6fd189;
+  color: #6a16c9;
 }
