@@ -5,6 +5,11 @@ body
   --bs-body-color: white;
 }
 
+.body-shift
+{
+  margin-left: 17rem;
+}
+
 a
 {
   color: #4f1196;
