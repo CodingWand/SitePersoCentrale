@@ -1,7 +1,7 @@
 body
 {
   color: white;
-  --bs-body-bg: black;
+  --bs-body-bg: darkgrey;
   --bs-body-color: white;
 }
 
