@@ -12,5 +12,3 @@ function update() {
     }
     setTimeout(update, 10);
 }
-
-update();

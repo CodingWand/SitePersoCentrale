@@ -63,7 +63,7 @@ nav span a:hover {
 .welcome {
   background-image: url("../assets/bg_dev2.jpg");
   background-size: cover;
-  background-position: center -250px;
+  background-position: center;
   padding: 40px 20px;
   text-align: center;
   text-shadow: 3px 3px #000;
