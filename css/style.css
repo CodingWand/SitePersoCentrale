@@ -1,7 +1,7 @@
 body
 {
   color: white;
-  --bs-body-bg: black;
+  --bs-body-bg: #111821;
   --bs-body-color: white;
 }
 
@@ -17,7 +17,7 @@ a
 }
 
 a:hover {
-  color: #6a16c9;
+  color: #6c51a3;
 }
 
 nav span a {
