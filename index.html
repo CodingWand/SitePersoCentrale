@@ -3,18 +3,17 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css"/>
       <title>Site d'Assane</title>
-
-      <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
-  <body>
+  <body id="Body">
 
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark my-colored-navbar">
         <span class="navbar-brand">
           <img src="logobest.png" width="50" height="50"/>
-          <a href="index.html" >Assane Diouf</a>
+          <a href="index.html">Assane Diouf</a>
         </span>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#TheSiteNav" aria-controls="TheSiteNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,38 +29,29 @@
       </nav>
   </header>
 
-    <div class="entete">
-      <h1>Assane Diouf</h1>
+    <div class="entete welcome mb-2">
+      <div class="d-lg-flex flex-lg-row-reverse align-items-center justify-content-around">
+        <img class="rounded-circle" src="assets/assane_diouf_500.jpg" width="200px" height="200px"/>
+        <div class="d-flex flex-column justify-content-start">
+          <h1>Assane Diouf</h1>
+          <h4 class="mb-3">Elève ingénieur à l'école Centrale Marseille <span style="color: #4f1196;">passionné</span> d'informatique.</h4>
+          <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary me-2" style="background-color: #4f1196;"><a href="#" style="color: wheat;">Mon portefolio</a></button>
+            <button class="btn btn-primary" style="background-color: #6c51a3;"><a href="#" style="color: wheat;">Mon CV</a></button>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="corps">
-      <p>C'est juste un test, pour mettre tous les trucs que j'ai fait au
-        GInfo pendant les formations !</p>
-
-      <p>Les trucs à faire :</p>
-      <ul>
-        <li><strike>Ajouter du css</strike></li>
-        <li><strike>Faire un truc drôle</strike></li>
-        <li><strike>Ajouter de quoi me contacter</strike></li>
-        <li><strike>Faire un menu</strike></li>
-      </ul>
-
-      Ce qu'on fait au GInfo :
-      <br/><br/>
-      <div class="row">
-        <iframe class="col-lg-10" width="560" height="315" src="https://www.youtube.com/embed/BBI81fH-4h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <br/><br/>
-
-      <p>Il faut vraiment regarder au moins les 2 premières minutes.</p>
-      <p>Aller regarde la.</p>
-      <p><strong>Vraiment.</strong></p>
-
-      <p>Bon maintenant je vais commencer à ajouter des trucs plus cool...</p>
+    <div class="container">
+      <p>J'aime beaucoup la programmation. J'ai écris mon premier programme en C à 13 ans et depuis j'ai pu 
+        en tester plusieurs autres. Voici ci-dessous une liste des langages, des frameworks et des outils que
+        j'ai déjà utilisés.</p>
     </div>
 
     <footer>&copy Assane Diouf | Me contacter : assane.diouf@centrale-marseille.fr</footer>
-  
+
+    <script src="js/vertical-navbar.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
