@@ -1,63 +1,79 @@
 body
 {
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #dd2424;
+  font-size: 60px;
+}
+
+.white-title {
   color: white;
-  --bs-body-bg: #111821;
-  --bs-body-color: white;
 }
 
-.body-shift
-{
-  margin-left: 17rem;
+.mtext {
+  margin: 10% 0%;
 }
 
-a
-{
-  color: #4f1196;
-  text-decoration: none;
+.title-container-fluid {
+  padding-left: 10%;
+  padding-bottom: 5%;
 }
 
-a:hover {
-  color: #6c51a3;
-}
-
-nav span a {
+#section-titre {
+  background-color: rgb(28, 29, 30);
   color: white;
-  text-decoration: none;
 }
 
-nav span a:hover {
-  color: white;
-  text-decoration: none;
+.text-title {
+  font-size: 150px;
+  text-align: right;
 }
 
-.entete h1
-{
-  color : #4f1196;
-  font-size: 100px;
-  text-align: center;
-  margin-bottom: 50px;
+#section-titre h3 {
+  text-align: right;
 }
 
-.corps
-{
-  margin: auto;
-  width: 70%;
-  padding-bottom: 50px;
+.image-titre {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 50px;
+  transform: rotate(-40deg);
 }
 
-.my-vertical-navbar
-{
-  height: 100%;
-  width: 20rem;
-  position: fixed;
-  left: 0;
-  top: 0;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  background-color: #4f1196;
+#section-about {
+  position: relative;
+  z-index: 1;
+  padding: 3%;
 }
 
-.my-colored-navbar {
-  background-color: #4f1196;
+#MyPhoto {
+  padding: 0;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.leaned-colored-box {
+  position: relative;
+  z-index: -1;
+  background-color: #dd2424;
+  width: 120%;
+  height: 400px;
+  left: -60px;
+  top: -50px;
+  transform: rotate(-10deg);
+}
+
+#section-projects {
+  position: relative;
+  top: -200px;
 }
 
 .welcome {
@@ -75,31 +91,7 @@ nav span a:hover {
   font-size: 100px;
 }
 
-.typed {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  /* border-right: .15em solid #4f1196; */ /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em; */ /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end);
-    /* blink-caret .75s step-end infinite;*/
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #4f1196; }
-}
-
 footer
 {
   text-align: center;
-  color: #6a16c9;
 }
