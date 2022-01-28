@@ -8,7 +8,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Playfair+Display&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css"/>
-      <title>Site d'Assane</title>
+      <title>Assane Diouf</title>
   </head>
   <body id="Body">
 
@@ -16,7 +16,7 @@
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
           <span class="navbar-brand">
-            <h1 class="white-title">Assane Diouf</h1>
+            <h1 class="white-text">Assane Diouf</h1>
           </span>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#TheSiteNav" aria-controls="TheSiteNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,47 +24,61 @@
           <div class="collapse navbar-collapse" id="TheSiteNav">
             <ul class="navbar-nav mb-2 mb-lg-2">
               <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+              <li class="nav-item"><a class="nav-link" href="#section-about">Qui suis-je ?</a></li>
+              <li class="nav-item"><a class="nav-link" href="#section-projects">Mes projets</a></li>
               <li class="nav-item"><a class="nav-link" href="jeu.html">Le jeu</a></li>
-              <li class="nav-item"><a class="nav-link" href="projets.html">Mes projets</a></li>
-              <li class="nav-item"><a class="nav-link" href="infos.html">Qui suis-je ?</a></li>
             </ul>
           </div>
         </nav>
       </header>
 
       <div class="row">
-        <img src="https://freesvg.org/img/1520464168.png" alt="Un ordinateur" class="image-titre col-6"/>
-        <div class="col-6">
+        <img src="https://freesvg.org/img/1520464168.png" alt="Un ordinateur" class="image-titre col-lg-6"/>
+        <div class="col-lg-6">
           <h1 class="text-title">Assane Diouf</h1>
           <h3>Elève ingénieur centralien</h3>
         </div>
       </div>
     </section>
 
-    <section id="section-about" class="container">
-      <h1>Qui suis-je ?</h1>
-      <div class="row d-lg-flex flex-lg-row-reverse justify-content-between">
-        <img src="assets/assane_diouf_500.jpg" alt="Une photo de moi" id="MyPhoto" class="col-lg-6"/>
-        <div class="col-lg-6">
-          <p class="mtext">Je m'appelle Assane Diouf et je suis passionné d'informatique.
-          Depuis que j'ai découvert la programmation, j'ai pu apprendre à faire des jeux, des applications mobiles et des sites.
-          Et ça ne fait que commencer.
-          </p>
+    <div class="leaned-colored-box">
+      <section id="section-about" class="container">
+        <h1>Qui suis-je ?</h1>
+        <div class="row d-lg-flex flex-lg-row-reverse justify-content-between">
+          <img src="assets/assane_diouf_500.jpg" alt="Une photo de moi" id="MyPhoto" class="col-lg-6"/>
+          <div class="col-lg-6">
+            <p class="mtext">Je m'appelle Assane Diouf et je suis passionné d'informatique.
+            Depuis que j'ai découvert la programmation, j'ai pu apprendre à faire des jeux, des applications mobiles et des sites.
+            Et ça ne fait que commencer.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="leaned-colored-box"></div>
-
-    <section id="section-projects" class="container">
-      <h1 class="white-title">Mes projets</h1>
-    </section>
-
-    <footer>
-      <span>&copy Assane Diouf | Me contacter : assane.diouf@centrale-marseille.fr</span>
-    </footer>
+      <section id="section-projects" class="container">
+        <h1 class="white-text">Mes projets</h1>
+        <div id="project-list" class="mtext carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000"><div class="project-card"></div></div>
+            <div class="carousel-item" data-bs-interval="2000"><div class="project-card"></div></div>
+            <div class="carousel-item" data-bs-interval="2000"><div class="project-card"></div></div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#project-list" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#project-list" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </div>
+      </section>
+    </div>
 
     <script src="js/vertical-navbar.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
+
+  <footer>
+    <span class="white-text">&copy Assane Diouf</span>
+  </footer>
 </html>

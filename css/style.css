@@ -12,7 +12,7 @@ h1 {
   font-size: 60px;
 }
 
-.white-title {
+.white-text {
   color: white;
 }
 
@@ -21,8 +21,7 @@ h1 {
 }
 
 .title-container-fluid {
-  padding-left: 10%;
-  padding-bottom: 5%;
+  padding: 3% 10%;
 }
 
 #section-titre {
@@ -31,7 +30,7 @@ h1 {
 }
 
 .text-title {
-  font-size: 150px;
+  font-size: 140px;
   text-align: right;
 }
 
@@ -43,14 +42,14 @@ h1 {
   width: 400px;
   height: 400px;
   position: relative;
-  top: 50px;
   transform: rotate(-40deg);
+  top: 50px;
 }
 
 #section-about {
   position: relative;
   z-index: 1;
-  padding: 3%;
+  padding: 3% 5%;
 }
 
 #MyPhoto {
@@ -62,36 +61,107 @@ h1 {
 
 .leaned-colored-box {
   position: relative;
-  z-index: -1;
-  background-color: #dd2424;
-  width: 120%;
-  height: 400px;
-  left: -60px;
-  top: -50px;
-  transform: rotate(-10deg);
+  z-index: 1;
+  background: linear-gradient(-8deg, #fff 30%, #dd2424 30% 70%, #fff 70%);
 }
 
 #section-projects {
-  position: relative;
-  top: -200px;
+  padding: 3% 5%;
 }
 
-.welcome {
-  background-image: url("../assets/bg_dev2.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 40px 20px;
-  text-align: center;
-  text-shadow: 3px 3px #000;
-  color: white;
-  background-attachment: fixed;
-}
-
-.welcome h1 {
-  font-size: 100px;
+.project-card {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  background-color: #fff;
+  border : 10px solid;
+  border-color: #f2f1f4;
+  border-radius: 15%;
 }
 
 footer
 {
+  background-color: #dd2424;
   text-align: center;
+}
+
+@media (max-width: 1075px) {
+
+  .text-title {
+    font-size: 100px;
+  }
+
+}
+
+@media (max-width: 990px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .image-titre {
+    visibility: collapse;
+    width: 0px;
+    height: 0px;
+  }
+
+  .text-title {
+    text-align: center;
+  }
+
+  #section-titre h3 {
+    text-align: center;
+  }
+
+  #section-about {
+    text-align: center;
+  }
+
+  #MyPhoto {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .leaned-colored-box {
+    background: linear-gradient(-5deg, #fff 20%, #dd2424 20% 50%, #fff 50%);
+  }
+
+  #section-projects {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .leaned-colored-box {
+    background: linear-gradient(#fff 50%, #dd2424 50% 80%, #fff 80%);
+  }
+
+  .project-card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .leaned-colored-box {
+    background: linear-gradient(#fff 55%, #dd2424 55% 80%, #fff 80%);
+  }
+
+  .text-title {
+    font-size: 60px;
+  }
+
+  .project-card {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .leaned-colored-box {
+    background: linear-gradient(#fff 58%, #dd2424 58% 80%, #fff 80%);
+  }
+
 }
